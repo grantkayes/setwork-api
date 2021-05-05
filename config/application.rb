@@ -26,7 +26,7 @@ module SetworkApi
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins '*'
+        origin '*'
         resource '*', :headers => :any, :methods => [:get]
       end
     end

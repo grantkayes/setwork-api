@@ -26,7 +26,7 @@ module SetworkApi
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'http://localhost:3000', 'https://setwork-frontend.herokuapp.com/' 
+        origins 'http://localhost:3000', 'https://lit-inlet-82685.herokuapp.com/' 
         resource '*', :headers => :any, :methods => [:get]
       end
     end

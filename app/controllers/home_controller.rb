@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @message = "Hello!"
-    render json: @message
+    render json: "Welcome to the API".to_json
   end
 end

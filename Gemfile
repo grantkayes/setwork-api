@@ -18,6 +18,8 @@ gem 'puma', '~> 5.0'
 # Devise for auth
 gem 'devise'
 
+gem 'rack-cors', require: 'rack/cors'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
